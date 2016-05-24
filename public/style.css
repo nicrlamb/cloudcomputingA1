@@ -1,3 +1,29 @@
+html { 
+ background: url('http://farm2.staticflickr.com/1100/1471214453_f7677b7816_b.jpg') no-repeat center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
 .profile {
   background: lightgray;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.profile h1 {
+   font-size: 16px;
+   text-transform: uppercase;
+ }
+
+.profile img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+}
+#popImg {
+  max-width: 100px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
 }
