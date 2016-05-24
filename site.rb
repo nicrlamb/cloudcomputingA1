@@ -8,7 +8,7 @@ ENV['PORT'] ||= '4000'
 set :port, ENV['PORT']
 
 get '/' do
-  "I'm alive!"
+  erb :index
 end
 
 get '/italian' do
